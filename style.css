@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    }
+    
+    .cabeçalho{
+    background-color: rgb(243, 219, 191);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    }
+    
+    .cabeçalho_imagem{
+    width: 50%;
+    }
+    
+    .cabeçalho_titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+    }
+    
+    .cabeçalho_lista_item{
+    font-family: sans-serif;
+    font-style: oblique;
+    margin: 25px 0px 25px 0px;
+    font-size: 16px;
+    }
+    
+    .apresentaçao_trabalho{
+    background-image: linear-gradient(rgb(255, 255, 255), #000000);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    }
+    
+    .titulo_apresentaçao_trabalho{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    }
