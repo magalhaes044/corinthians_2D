@@ -13,7 +13,7 @@
     }
 
     .cabeçalho_imagem{
-    width: 40%;
+    width: 35%;
     }
     
     .cabeçalho_titulo{
@@ -30,8 +30,8 @@
     }
     
     .apresentaçao_trabalho{
-    background-image: radial-gradient(rgb(183, 213, 229), rgb(36, 97, 138));
-    display: list-item;
+    background-image: linear-gradient(rgb(183, 213, 229), rgb(36, 97, 138));
+    display: ruby;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
