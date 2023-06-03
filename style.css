@@ -11,9 +11,9 @@
     align-items: center;
     padding: 24px 0;
     }
-    
+
     .cabeçalho_imagem{
-    width: 50%;
+    width: 40%;
     }
     
     .cabeçalho_titulo{
@@ -30,8 +30,8 @@
     }
     
     .apresentaçao_trabalho{
-    background-image: linear-gradient(rgb(183, 213, 229), #5f889c);
-    display: flow-root;
+    background-image: -moz-linear-gradient(rgb(183, 213, 229), rgb(36, 97, 138));
+    display: list-item;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
