@@ -4,7 +4,7 @@
     }
     
     .cabeçalho{
-    background-color: rgb(243, 219, 191);
+    background-color: rgb(183, 213, 229);
     color: black;
     display: flex;
     justify-content: space-around;
@@ -17,7 +17,7 @@
     }
     
     .cabeçalho_titulo{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
     font-size: 50px;
     }
@@ -30,8 +30,8 @@
     }
     
     .apresentaçao_trabalho{
-    background-image: linear-gradient(rgb(255, 255, 255), #000000);
-    display: flex;
+    background-image: linear-gradient(rgb(183, 213, 229), #5f889c);
+    display: flow-root;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
