@@ -30,7 +30,7 @@
     }
     
     .apresentaçao_trabalho{
-    background-image: -moz-linear-gradient(rgb(183, 213, 229), rgb(36, 97, 138));
+    background-image: radial-gradient(rgb(183, 213, 229), rgb(36, 97, 138));
     display: list-item;
     justify-content: space-around;
     align-items: center;
