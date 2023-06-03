@@ -19,7 +19,7 @@
     .cabeçalho_titulo{
     font-family: sans-serif;
     font-style: oblique;
-    font-size: 35px;
+    font-size: 25px;
     }
     
     .cabeçalho_lista_item{
@@ -30,8 +30,8 @@
     }
     
     .apresentaçao_trabalho{
-    background-image: linear-gradient(rgb(183, 213, 229), rgb(36, 97, 138));
-    display: ruby;
+    background-image: linear-gradient(rgb(183, 213, 229), rgb(17, 52, 101));
+    display: list-item;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
