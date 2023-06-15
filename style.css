@@ -1,44 +1,198 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    }
-    
-    .cabeçalho{
-    background-color: rgb(183, 213, 229);
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-    }
+/* style.css */
 
-    .cabeçalho_imagem{
-    width: 35%;
-    }
-    
-    .cabeçalho_titulo{
-    font-family: sans-serif;
-    font-style: oblique;
-    font-size: 25px;
-    }
-    
-    .cabeçalho_lista_item{
-    font-family: sans-serif;
-    font-style: oblique;
-    margin: 25px 0px 25px 0px;
-    font-size: 16px;
-    }
-    
-    .apresentaçao_trabalho{
-    background-image: linear-gradient(rgb(183, 213, 229), rgb(17, 52, 101));
-    display: list-item;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-    }
-    
-    .titulo_apresentaçao_trabalho{
-    font-family: sans-serif;
-    font-style: oblique;
-    font-size: 30px;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+    margin: 0;
+      padding: 0;
+        background-color: #f5f5f5;
+          color: #333;
+            transition: background-color 0.3s;
+            }
+
+            header {
+              background-color: #ffa500;
+                padding: 20px;
+                }
+
+                nav {
+                  display: flex;
+                    justify-content: space-between;
+                      align-items: center;
+                      }
+
+                      .logo img {
+                        width: 50px;
+                          height: 50px;
+                            margin-right: 10px;
+                            }
+
+                            .logo h1 {
+                              font-size: 24px;
+                                font-weight: 600;
+                                }
+
+                                .toggle-container {
+                                  display: flex;
+                                    align-items: center;
+                                      color: #fff;
+                                      }
+
+                                      .toggle-container span {
+                                        margin: 0 5px;
+                                        }
+
+                                        .toggle-switch {
+                                          position: relative;
+                                            display: inline-block;
+                                              width: 40px;
+                                                height: 20px;
+                                                  background-color: #ccc;
+                                                    border-radius: 20px;
+                                                      overflow: hidden;
+                                                      }
+
+                                                      .toggle-switch input {
+                                                        display: none;
+                                                        }
+
+                                                        .toggle-slider {
+                                                          position: absolute;
+                                                            top: 0;
+                                                              left: 0;
+                                                                right: 0;
+                                                                  bottom: 0;
+                                                                    background-color: #fff;
+                                                                      border-radius: 20px;
+                                                                        transition: transform 0.3s;
+                                                                        }
+
+                                                                        .round {
+                                                                          border-radius: 50%;
+                                                                          }
+
+                                                                          .toggle-switch input:checked + .toggle-slider {
+                                                                            transform: translateX(20px);
+                                                                            }
+
+                                                                            .hero-section {
+                                                                              background-image: url('hero.jpg');
+                                                                                background-size: cover;
+                                                                                  background-position: center;
+                                                                                    height: 500px;
+                                                                                      display: flex;
+                                                                                        justify-content: center;
+                                                                                          align-items: center;
+                                                                                            text-align: center;
+                                                                                              color: #fff;
+                                                                                              }
+
+                                                                                              .hero-content h1 {
+                                                                                                font-size: 48px;
+                                                                                                  font-weight: 600;
+                                                                                                    margin-bottom: 20px;
+                                                                                                    }
+
+                                                                                                    .hero-content p {
+                                                                                                      font-size: 20px;
+                                                                                                        margin-bottom: 20px;
+                                                                                                        }
+
+                                                                                                        .cta-button {
+                                                                                                          background-color: #ff9600;
+                                                                                                            color: #fff;
+                                                                                                              font-size: 18px;
+                                                                                                                font-weight: bold;
+                                                                                                                  padding: 10px 30px;
+                                                                                                                    border: none;
+                                                                                                                      border-radius: 5px;
+                                                                                                                        text-decoration: none;
+                                                                                                                          transition: background-color 0.3s;
+                                                                                                                          }
+
+                                                                                                                          .cta-button:hover {
+                                                                                                                            background-color: #ff7400;
+                                                                                                                            }
+
+                                                                                                                            .menu-section {
+                                                                                                                              padding: 50px 0;
+                                                                                                                                text-align: center;
+                                                                                                                                }
+
+                                                                                                                                .menu-grid {
+                                                                                                                                  display: grid;
+                                                                                                                                    grid-template-columns: repeat(4, 1fr);
+                                                                                                                                      grid-gap: 20px;
+                                                                                                                                        justify-items: center;
+                                                                                                                                        }
+
+                                                                                                                                        .menu-item img {
+                                                                                                                                          width: 200px;
+                                                                                                                                            height: 200px;
+                                                                                                                                              object-fit: cover;
+                                                                                                                                                border-radius: 5px;
+                                                                                                                                                  margin-bottom: 10px;
+                                                                                                                                                  }
+
+                                                                                                                                                  .menu-item h3 {
+                                                                                                                                                    font-size: 24px;
+                                                                                                                                                      font-weight: 600;
+                                                                                                                                                        margin-bottom: 10px;
+                                                                                                                                                        }
+
+                                                                                                                                                        .menu-item p {
+                                                                                                                                                          font-size: 16px;
+                                                                                                                                                          }
+
+                                                                                                                                                          .order-section {
+                                                                                                                                                            background-color: #fff;
+                                                                                                                                                              padding: 50px 0;
+                                                                                                                                                                text-align: center;
+                                                                                                                                                                }
+
+                                                                                                                                                                .order-section h2 {
+                                                                                                                                                                  font-size: 32px;
+                                                                                                                                                                    font-weight: 600;
+                                                                                                                                                                      margin-bottom: 30px;
+                                                                                                                                                                      }
+
+                                                                                                                                                                      form input,
+                                                                                                                                                                      form textarea {
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                          padding: 10px;
+                                                                                                                                                                            margin-bottom: 20px;
+                                                                                                                                                                              border-radius: 5px;
+                                                                                                                                                                                border: 1px solid #ccc;
+                                                                                                                                                                                  font-size: 16px;
+                                                                                                                                                                                  }
+
+                                                                                                                                                                                  form textarea {
+                                                                                                                                                                                    height: 100px;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    form button {
+                                                                                                                                                                                      background-color: #ff9600;
+                                                                                                                                                                                        color: #fff;
+                                                                                                                                                                                          font-size: 18px;
+                                                                                                                                                                                            font-weight: bold;
+                                                                                                                                                                                              padding: 10px 30px;
+                                                                                                                                                                                                border: none;
+                                                                                                                                                                                                  border-radius: 5px;
+                                                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                                                      transition: background-color 0.3s;
+                                                                                                                                                                                                        cursor: pointer;
+                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                        form button:hover {
+                                                                                                                                                                                                          background-color: #ff7400;
+                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                          footer {
+                                                                                                                                                                                                            background-color: #333;
+                                                                                                                                                                                                              color: #fff;
+                                                                                                                                                                                                                padding: 20px;
+                                                                                                                                                                                                                  text-align: center;
+                                                                                                                                                                                                                    font-size: 14px;
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    
